@@ -31,6 +31,9 @@ module.exports = {
   },
   router: {
   },
+  plugins: [
+    '~/plugins/menu',
+  ],
   build: {
     /*
     ** Run ESLint on save
